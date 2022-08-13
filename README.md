@@ -29,7 +29,7 @@ You can download the laucher or the android version at [duckdevss.github.io/Duck
 
 <img width="25px" height="25px" style="image-rendering:auto" src="https://github.com/DuckDevss/Duck-Dungeon/blob/web-desktop/assets/images/prince.gif?raw=true" alt="credit-Prince527"></img> **Prince527** `Web Design` `Game Design`
 
-<h5>Special Thanks to <img width="25px" height="25px" style="image-rendering:auto" src="https://github.com/DuckDevss/Duck-Dungeon/blob/web-desktop/assets/images/castnormal.png?raw=true" alt="credit-CastNormal">, <img width="25px" height="25px" style="image-rendering:auto" src="https://github.com/Prince527GitHub/DuckDevss/blob/web-desktop/assets/images/wam.png">, <img width="25px" height="25px" style="image-rendering:auto" src="https://github.com/Prince527GitHub/DuckDevss/blob/web-desktop/assets/images/cr1ms0n.png?raw=true" alt="credit-Cr1ms0n">, Via and all those who were there during this process <3</h5>
+<h5>Special Thanks to <img width="25px" height="25px" style="image-rendering:auto" src="https://github.com/DuckDevss/Duck-Dungeon/blob/web-desktop/assets/images/castnormal.png?raw=true" alt="credit-CastNormal">, <img width="25px" height="25px" style="image-rendering:auto" src="https://github.com/DuckDevss/Duck-Dungeon/blob/web-desktop/assets/images/wam.png">, <img width="25px" height="25px" style="image-rendering:auto" src="https://github.com/DuckDevss/Duck-Dungeon/blob/web-desktop/assets/images/cr1ms0n.png?raw=true" alt="credit-Cr1ms0n">, Via and all those who were there during this process <3</h5>
  
 ### Social Media
 
