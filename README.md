@@ -13,4 +13,4 @@
                                                                       \▓▓▓▓▓▓                            
 ```
 
-This is the website for mobile, that you can see on desktop [here](https://mobile.duckdevs.me/).
+The mobile verison of the website for Duck Dungeon.
