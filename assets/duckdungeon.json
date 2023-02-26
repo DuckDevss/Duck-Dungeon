@@ -1,13 +1,13 @@
 {
   "launcher": {
-    "version": "1.0",
+    "version": "1.1",
     "link": "testlink.com",
-    "locallink": "https://duckdevs.me/assets/launcher.json"
+    "locallink": "https://duckdevss.github.io/Duck-Dungeon/assets/launcher.json"
   },
   "game": {
-    "version": "0.11.0",
+    "version": "0.10.0",
     "patch_notes": "VERSION 0.10.0 RELEASED",
-	"link": "https://cdn.discordapp.com/attachments/870844639802970243/895047836641660938/Duck.Dungeon.Latest.zip",
-	"locallink": "https://duckdevs.me/assets/version.json"
+	"link": "https://github.com/DuckDevss/Duck-Dungeon/releases/download/v0.10.0-pre-alpha/Duck.Dungeon.Latest.zip",
+	"locallink": "https://duckdevss.github.io/Duck-Dungeon/assets/version.json"
   }
 }
