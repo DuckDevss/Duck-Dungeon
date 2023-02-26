@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <link href="./css/style.css" rel="stylesheet">
+  <title>Duck Dungeon Launcher</title>
+</head>
+
+<body style="padding-bottom:30px">
+  <div class="container-sm style-is-cool">
+
+    <h1>Duck Dungeon Launcher<span style="font-size:15px;" id="version"></span></h1>
+    <img src="./images/duck.gif" alt="Duck Dungeon-logo" width="182" height="192">
+
+    <h2 style="font-size:25px" id="patchnotes"></h2>
+
+    <button class="btn btn-primary" type="button" id="play">Play</button>
+    <button class="btn btn-primary" type="button" id="remove">Remove</button>
+
+    <div>
+      <a href="#" onclick="openLink('https://twitter.com/DuckDevss')">
+        <img style="image-rendering: auto;" src="./images/twitter.png" alt="Duck Dungeon-twitter" class="media-image">
+      </a>
+      <a href="#" onclick="openLink('https://reddit.com/r/duckdungeon')">
+        <img style="image-rendering: auto;" src="./images/reddit.png" alt="Duck Dungeon-reddit" class="media-image">
+      </a>
+      <a href="#" onclick="openLink('https://discord.gg/95TANe26Km')">
+        <img style="image-rendering: auto;" src="./images/discord.png" alt="Duck Dungeon-discord" class="media-image">
+      </a>
+      <a href="#" onclick="openLink('https://www.instagram.com/duckdevs/')">
+        <img style="image-rendering: auto;" src="./images/instagram.png" alt="Duck Dungeon-instagram" class="media-image">
+      </a>
+    </div>
+  </div>
+  <h6></h6>
+
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="background-color:#468232;">
+      <div class="modal-content" style="background-color:#468232;">
+        <div class="modal-header" style="background-color:#468232;">
+          <h5 class="modal-title" id="exampleModalLabel" style="background-color:#468232;">Launcher out of date!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="background-color:#468232;">Please update the launcher.</div>
+        <div class="modal-footer" id="modals-buttons" style="background-color:#468232;">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="update-launcher">Update</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="./js/render.js"></script>
+<script>
+  function runModel() {
+    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
+      keyboard: false
+    });
+    myModal.show();
+  }
+</script>
+
+</html>
