@@ -4,12 +4,12 @@
     font-style: normal;
 	font-display: swap;
     font-smooth: never;
-    src: url('../font/minecraft.woff2') format('woff2'),
-         url('../font/minecraft.woff') format('woff');
+    src: url('https://duckdevss.github.io/Duck-Dungeon/font/minecraft.woff2') format('woff2'),
+         url('https://duckdevss.github.io/Duck-Dungeon/font/minecraft.woff') format('woff');
 }
 
 body {
-    background-image: url("../img/background.png");
+    background-image: url("https://duckdevss.github.io/Duck-Dungeon/img/background.png");
     font-family: 'minecraft', cursive;
     image-rendering: pixelated;
     text-align: center;
@@ -24,7 +24,7 @@ body {
     margin-bottom: 15px;
     border-radius: 0.25rem;
     border: 3px solid green;
-    background-image: url("../img/foreground.png");
+    background-image: url("https://duckdevss.github.io/Duck-Dungeon/img/foreground.png");
 }
 
 img {
