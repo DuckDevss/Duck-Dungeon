@@ -1,0 +1,13 @@
+{
+  "launcher": {
+    "version": "2.1",
+    "link": "https://github.com/DuckDevss/Duck-Dungeon/raw/versions/Launcher/Duck%20Dungeon%20Launcher%20v2.0.7z",
+    "locallink": "https://duckdevss.github.io/Duck-Dungeon/launcher/launcher.json"
+  },
+  "game": {
+    "version": "0.10.0",
+    "patch_notes": "VERSION 0.10.0 RELEASED",
+    "link": "https://github.com/DuckDevss/Duck-Dungeon/releases/download/v0.10.0-pre-alpha/Duck.Dungeon.Latest.zip",
+    "locallink": "https://duckdevss.github.io/Duck-Dungeon/launcher/version.json"
+  }
+}
