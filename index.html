@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icon.png">
+    <title>Duck Dungeon</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Duck Dungeon</h1>
+        <img src="./img/duck.gif">
+        <p>Duck Dungeon is a game where you play as a duck. An evil goose has stolen your bread, and you must bring it back. You will face many obstacles in your quest to bring back the holy bread.</p>
+
+        <div>
+            <button class="collapse" onclick="toggleCollapse('controls')">< Controls ></button>
+            <div id="controls" class="hidden">
+                <img src="./img/controls.png">
+                <p>Use WASD to move and 1, 2, 3, and 4 to switch weapons and use your mouse to point & shoot.</p>
+            </div>
+        </div>
+
+        <div>
+            <button class="collapse" onclick="toggleCollapse('credit')">< Credits ></Controls></button>
+            <div id="credit" class="hidden">
+                <div class="credit">
+                    <img class="image" src="./img/credit/arpi.jpg">
+                    <div class="text">Arpidano</div>
+                    <div class="badges">
+                        <span class="badge">Programming</span>
+                        <span class="badge">Game Design</span>
+                    </div>
+                </div>
+                <div class="credit">
+                    <img class="image" src="./img/credit/txtur.jpg">
+                    <div class="text">txtur</div>
+                    <div class="badges">
+                        <span class="badge">Textures</span>
+                        <span class="badge">Game Design</span>
+                    </div>
+                </div>
+                <div class="credit">
+                    <img class="image" src="./img/credit/tRobotic.jpg">
+                    <div class="text">tRobotic</div>
+                    <div class="badges">
+                        <span class="badge">Sound Design</span>
+                        <span class="badge">Tilemap</span>
+                    </div>
+                </div>
+                <div class="credit">
+                    <img class="image" src="./img/credit/prince.jpg">
+                    <div class="text">Prince527</div>
+                    <div class="badges">
+                        <span class="badge">Web Design</span>
+                        <span class="badge">Game Design</span>
+                    </div>
+                </div>
+
+                <p class="extra-credit">Special Thanks to <img class="image" src="./img/credit/castNormal.jpg">, <img class="image" src="./img/credit/wam25.jpg">, <img  class="image" src="./img/credit/cr1ms0n.jpg"> and all those who were there during this process <3</p>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleCollapse('dropdown', 'dropdown-hidden');this.classList.toggle('dropbtn-hover')">Download</button>
+            <div id="dropdown" class="dropdown-content dropdown-hidden">
+                <a href="https://github.com/DuckDevss/Duck-Dungeon/releases/download/v0.10.0-pre-alpha/Duck.Dungeon.Latest.zip">PC</a>
+                <a href="https://github.com/DuckDevss/Duck-Dungeon/raw/launcher/Duck%20Dungeon%20Latest.apk">Android</a>
+                <a href="https://github.com/DuckDevss/Duck-Dungeon/releases">More Versions</a>
+            </div>
+        </div>
+
+        <div class="social">
+            <a href="https://twitter.com/DuckDevss">
+                <img src="./img/social/twitter.png" alt="Image 1">
+            </a>
+            <a href="https://reddit.com/r/duckdungeon">
+                <img src="./img/social/reddit.png" alt="Image 2">
+            </a>
+            <a href="https://discord.gg/95TANe26Km">
+                <img src="./img/social/discord.png" alt="Image 3">
+            </a>
+            <a href="https://www.instagram.com/duckdevs">
+                <img src="./img/social/instagram.png" alt="Image 3">
+            </a>
+            <a href="https://github.com/DuckDevss/Duck-Dungeon">
+                <img src="./img/social/github.png" alt="Image 3">
+            </a>
+            <a href="https://www.youtube.com/channel/UC5tCQfUnd3pjnrygtElrSfA">
+                <img src="./img/social/youtube.png" alt="Image 3">
+            </a>
+        </div>
+
+        <p class="footer">Massive work in progress!</p>
+
+    </div>
+
+    <script>
+        function toggleCollapse(element, className="hidden") {
+            document.getElementById(element).classList.toggle(className);
+        }
+    </script>
+
+</body>
+</html>

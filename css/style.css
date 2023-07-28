@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'minecraft';
+    font-weight: normal;
+    font-style: normal;
+	font-display: swap;
+    font-smooth: never;
+    src: url('../font/minecraft.woff2') format('woff2'),
+         url('../font/minecraft.woff') format('woff');
+}
+
+body {
+    background-image: url("../img/background.png");
+    font-family: 'minecraft', cursive;
+    image-rendering: pixelated;
+    text-align: center;
+}
+
+.container {
+    padding: 15px;
+    margin-top: 15px;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 0.25rem;
+    border: 3px solid green;
+    background-image: url("../img/foreground.png");
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: none;   
+    font-family: 'minecraft', cursive;
+}
+
+.collapse {
+    padding: 0;
+    font-size: 2rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    background-color: transparent;
+}
+
+.credit {
+    display: flex;
+    padding-top: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.credit:first-child {
+    padding-top: 0;
+}
+
+.image {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    image-rendering: auto;
+}
+
+.text {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.badge {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #198754;
+}
+
+.badge:first-child {
+    margin-right: 5px;
+}
+
+.extra-credit .image {
+    margin: 0;
+}
+
+.dropbtn {
+    font-size: 18px;
+    border-radius: 8px;
+    padding: .375rem .75rem;
+    background-color: #75a743;
+    border-top: 2px solid #468232;
+    border-left: 2px solid #468232;
+    border-right: 2px solid #468232;
+    border-bottom: 2px solid #468232;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    z-index: 1;
+    position: absolute;
+    background-color: #3e8d41;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: 2px solid #468232;
+    border-right: 2px solid #468232;
+    border-bottom: 2px solid #468232;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #2F7031;
+}
+
+.dropbtn-hover {
+    border-bottom: none;
+    background-color: #3e8e41;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.dropdown-hidden {
+    display: none;
+}
+
+.social {
+    padding-top: 0.5rem;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social a img {
+    width: 25px;
+    height: 25px;
+    image-rendering: auto;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 550px) {
+    .badge {
+        display: none;
+    }
+
+    .hidden {
+        display: block;
+    }
+}
+
+@media (max-width: 314px) {
+    .collapse {
+        font-size: 1.5rem;
+    }
+}
