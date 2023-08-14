@@ -40,7 +40,7 @@ async function run() {
     const url = "https://duckdevss.github.io/Duck-Dungeon";
 
     async function home() {
-        const version = (await fetch(`${url}/assets/duckdungeon.json`)).data;
+        const version = (await fetch(`${url}/launcher/duckdungeon.json`)).data;
 
         document.getElementById("version").innerHTML = version.launcher.version;
         document.getElementById("patchnotes").innerHTML = version.game.patch_notes;
@@ -51,7 +51,7 @@ async function run() {
     }
 
     async function updateLauncher() {
-        const version = (await fetch(`${url}/assets/duckdungeon.json`)).data;
+        const version = (await fetch(`${url}/launcher/duckdungeon.json`)).data;
 
         const launcherPath = `${__dirname}/game/launcher.json`;
 
@@ -77,14 +77,14 @@ async function run() {
     async function openGame() {
         try {
             if (!fs.existsSync(`${__dirname}/game/version.json`)) {
-                const version = (await fetch(`${url}/assets/duckdungeon.json`)).data;
+                const version = (await fetch(`${url}/launcher/duckdungeon.json`)).data;
 
                 const download = new DownloaderHelper(`${version.game.locallink}`, `${__dirname}/game`);
                 download.start();
             }
 
             if (fs.existsSync(`${__dirname}/game/Duck.Dungeon.Latest.zip`)) {
-                const version = (await fetch(`${url}/assets/duckdungeon.json`)).data;
+                const version = (await fetch(`${url}/launcher/duckdungeon.json`)).data;
                 const file = JSON.parse(fs.promises.readFile(`${__dirname}/game/version.json`));
 
                 if (file.ver === version.game.version) return shell.openPath(path.join(__dirname, 'game', 'Duck Dungeon', 'Duck Dungeon.exe'));
@@ -121,7 +121,7 @@ async function run() {
                     document.getElementById("play").innerHTML = "Play";
                 }
             } else {
-                const version = (await fetch(`${url}/assets/duckdungeon.json`)).data;
+                const version = (await fetch(`${url}/launcher/duckdungeon.json`)).data;
 
                 console.log(version);
 
